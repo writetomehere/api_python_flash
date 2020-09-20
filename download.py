@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 import requests
 import urllib
 
@@ -27,3 +28,9 @@ def download(url, dest_folder):
 
 url_to_titanic_data = 'https://web.stanford.edu/class/archive/cs/cs109/cs109.1166/stuff/titanic.csv'
 download(url_to_titanic_data, './data')
+
+df = pd.read_csv('./data/titanic.csv')
+df.to_json(r'./data/titanic.json')
+
+print(df)
+
