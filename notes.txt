@@ -4,3 +4,6 @@ api to python
 
 usring conda activate api_python_flash
 https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
+
+
+https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-flask-application-using-docker-on-ubuntu-18-04
