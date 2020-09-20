@@ -1,3 +1,6 @@
 
 this is project from Medium 
 api to python
+
+usring conda activate api_python_flash
+https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
